@@ -1,0 +1,222 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.header-container {
+    background-color: #252525;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 24px;
+    padding-left: 16px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.WaifuHubLogo {
+    height: 50px;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+.introduction-container {
+    background-color: #383838;
+    background-image: url(./images/BG-1-blurred.png);
+    background-position-x: center;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 50px 80px 50px 80px;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.title-bar {
+    width: 300px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-paragraph {
+    text-align: justify;
+}
+
+.title-image {
+    width: 300px;
+    height: auto;
+    flex: 1;
+    border: 1px solid #f7971d;
+    filter: drop-shadow(0rem 0rem 0.5rem rgba(20, 20, 20));
+    border-radius: 16px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-section {
+    background-color: #252525;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+}
+
+.card-title {
+    color: whitesmoke;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    color: whitesmoke;
+    background-color: #383838;
+    border: 3px solid #f7971d;
+    border-radius: 16px;
+    width: 200px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(0rem 0rem 0.5rem rgba(20, 20, 20));
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #f7971d;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.waifu-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.waifu-text {
+    text-align: center;
+    margin-top: 4px;
+}
+
+.quote-container {
+    background-color: #383838;
+    color: whitesmoke;
+    padding: 6% 20%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    text-align: right;
+    font-size: 18px;
+}
+
+.quotee {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-container {
+    background-color: #383838;
+    background-image: url(./images/BG-2-blurred.png);
+    background-position-x: center;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-rectangle {
+    height: 15%;
+    width: 70%;
+    border: 4px solid #f7971d;
+    padding: 10px 25px;
+    margin: 7% 20%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.signup-sidetext {
+    padding: 6%;
+    width: 60%;
+}
+
+.signup-instruction {
+    font-size: 14px;
+}
+
+.bottombutton {
+    margin-right: 0%;
+}
+
+.footer-container {
+    height: 32px;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button.signup {
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: solid;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f7971d;
+    background-color: transparent;
+    border-color: #f7971d;
+    transition: all 0.2s;
+    display: inline-block;
+    cursor: pointer;
+}
